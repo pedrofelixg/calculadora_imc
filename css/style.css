@@ -1,0 +1,62 @@
+/* corpo da página */
+body{
+    background-color: #e2ebff;
+    font-family: Sora;
+    color: rgb(64, 53, 155);
+    width: 550px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* cabeçalho */
+.calculadora{
+    width: 5em;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* formulario da calculadora  */
+.dados-calc{
+    margin-top: 1.5em;
+    text-transform: uppercase;
+}
+
+.name, .peso, .altura{
+    margin-top: 13px;
+}
+
+button{
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+details i{
+    text-align: justify;
+}
+
+/* rodapé */
+footer{
+    border-top: rgb(64, 53, 155) 1px solid;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(64, 53, 155);
+}
+
+.gitlogo{
+    width: 2.5em;
+    margin: auto;
+    padding-top: 5px;
+}

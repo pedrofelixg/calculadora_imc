@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora IMC</title>
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="image icon" href="./assets/calculadora.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <img src="./assets/calculadora.png" class="calculadora" alt>
+            <h1>Calculadora I.M.C</h1>
+            <p>Utilize o formulário para calcular o seu índice de massa corporéa</p>
+        </header>
+        <!--formulário-->
+        <section class="dados-calc">
+            <div class="nome">
+                <label for="name"><b>Nome</b></label>
+                <input type="text" id="name" class="form-control" placeholder="Nome" aria-label="nome" required>
+            </div>
+    
+            <div class="peso">
+                <label for="peso"><b>Informe seu Peso</b></label>
+                <input type="float" id="peso" class="form-control" placeholder="nn.nn" aria-label="peso" required>
+            </div>
+    
+            <div class="altura">
+                <label for="altura"><b>Informe sua Altura</b></label>
+                <input type="float" id="altura" class="form-control" placeholder="n.nn" aria-label="altura" required>
+            </div>
+            <button id="click" class="btn btn-primary">Calcular</button>
+        </section>
+
+        <!-- Impressão innerHTML = resultado do script -->
+        <h3 id="notice"></h3>
+        
+        <!--Detalhes Guardados-->
+        <details>
+            <p>Abaixo está uma tabela acerca dos principais dados acerca do imc segundo a OMS</p>
+            <table class="table" id="quado_imc">
+                <thead>
+                    <tr>
+                        <th scope="col">IMC</th>
+                        <th scope="col">Classificações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menor que 18.5</td>
+                        <td>Abaixo do Peso Ideal</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Peso Ideal</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Excesso de Peso</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - 34.9</td>
+                        <td>Obesidade I</td>
+                    </tr>
+                    <tr>
+                        <td>35.0 - 39.9</td>
+                        <td>Obsidade II</td>
+                    </tr>
+                    <tr>
+                        <td>Maior ou igual a 40.0</td>
+                        <td>Obesidade III</td>
+                    </tr>
+                </tbody>
+            </table>
+            <i>Embora o cálculo do IMC ajude a obter um diagnóstico rápido de sua saúde, ele não substitui o acompanhmento profissional, pois há necessidades específicas de cada pessoa.</i>
+        </details>
+
+        <footer>
+            <section class="git-hub">
+                <img src="./assets/github-sign.png" class="gitlogo">
+                <p>
+                    <p>Desenvolvido por <a href="https://github.com/pedrofelixg" target="_blank">Pedro Gonçalves</a></p>
+                </p>
+            </section>
+        </footer>
+        <script src="./script/main.js"></script>
+    </body>
+</html>
