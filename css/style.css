@@ -2,7 +2,7 @@
 body{
     background-color: #e2ebff;
     color: rgb(64, 53, 155);
-    font-family: 'Sora', monospace;
+    font-family: 'Sora', sans-serif;
     margin: auto;
     padding-top: 2rem;
     width: 550px;
