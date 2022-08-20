@@ -1,16 +1,19 @@
 /* corpo da página */
 body{
     background-color: #e2ebff;
-    font-family: Sora;
     color: rgb(64, 53, 155);
-    width: 550px;
+    font-family: 'Sora', monospace;
     margin: auto;
     padding-top: 2rem;
+    width: 550px;
 }
 
 /* cabeçalho */
 .calculadora{
     width: 5em;
+    display: block;
+    margin: auto;
+    padding: 0 0 1rem 0;
 }
 
 h1{
