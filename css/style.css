@@ -49,7 +49,8 @@ details i{
 /* rodapé */
 footer{
     border-top: rgb(64, 53, 155) 1px solid;
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -62,4 +63,38 @@ footer a{
     width: 2.5em;
     margin: auto;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        width:340px;
+    }
+    
+    .calculadora{
+        width: 3.5rem;
+        display: block;
+        margin: auto;
+        padding: 0 0 1rem 0;
+    }
+
+    h1{
+        font-size: 2.45rem;
+        text-align: center;
+    }
+    
+    .title__legend{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .gitlogo{
+        width: 1.45rem;
+    }
+
+    footer p{
+        margin-bottom: 0;
+    };
 }
