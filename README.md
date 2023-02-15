@@ -36,4 +36,4 @@ O programa serve como etapas de aprendizado do desenvolvimento WEB com Javascrip
 
 ## **Prévia do Site**
 
-![prévia do site](./assets/previa_do_site.png#vitrinedev)
+![prévia do site](https://github.com/pedrofelixg/calculadora_imc/raw/main/assets/previa_do_site.png#vitrinedev)
